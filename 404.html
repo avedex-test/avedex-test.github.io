@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <!-- Primary Meta Tags -->
+    <title>Ave.ai</title>
+    <meta name="title" content="Ave.ai" />
+    <meta name="description" content="Ave.ai is the most comprehensive on-chain crypto trading platform, integrating 130+ blockchains and 300+ DEXs for secure, professional, and fast trading. It empowers 7M+ users with advanced token analysis and seamless execution across its App, PC platform, and trading bots." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ave.ai" />
+    <meta property="og:title" content="Ave.ai - The Ultimate Web3 Trading Platform" />
+    <meta property="og:description" content="Real-Time Blockchain Data, Price Alerts, Smart Money, KOL, Sniping, Copy-Trading and more." />
+    <meta property="og:image" content="https://ave.s3.ap-east-1.amazonaws.com/logo/tg-share.png" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="600">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://ave.ai" />
+    <meta property="twitter:title" content="Ave.ai - The Ultimate Web3 Trading Platform" />
+    <meta property="twitter:description" content="Real-Time Blockchain Data, Price Alerts, Smart Money, KOL, Sniping, Copy-Trading and more." />
+    <meta property="twitter:image" content="https://ave.s3.ap-east-1.amazonaws.com/logo/tg-share.png" />
+    <meta property="fb:app_id" content="1024585522541030">
+    <!-- Meta Tags Generated with https://metatags.io -->
+
+    <!--[if IE]><link rel="icon" href="/favicon.ico" /><![endif]-->
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LFKW8KRD0V"></script>
+    <script src="/vemachine.js"></script>
+    <!-- <script src="https://www.iconaves.com/charting_library/charting_library.standalone.js"></script> -->
+    <!-- <script src="/datafeeds/udf/dist/polyfills.js"></script> -->
+    <!-- <script src="/datafeeds/udf/dist/bundle.js"></script> -->
+    <!-- <style id="antiClickjack">body{display:none !important;}</style> -->
+    <script>
+      // let supportsDomain = ['ave-m-test-5.github.io']
+      // console.log('----top-------',window.top)
+      // console.log('----self------',window.self)
+      // if (self === top ) {
+      //   var antiClickjack = document.getElementById('antiClickjack')
+      //   antiClickjack.parentNode.removeChild(antiClickjack)
+      // } else {
+      //   top.location = self.location
+      // }
+      function redirect() {
+        // let domains = ['avedex.cc', 'ave.ai', 'opencw.online', 'opencc.club']
+        // let isDomain = domains.some(i => location.hostname.includes(i))
+        let isMobile = /mobile|phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone/i.test(navigator.userAgent)
+        let isUnRedirectDomains = /(opencc\.club)|(aveaidata\.com)/i.test(location.hostname)
+        if (isMobile && location.protocol.includes('http') && !location.host.includes('test') && !isUnRedirectDomains) {
+            if(location.pathname == '/rank'){
+              location.replace('https://airdrop.ave.ai')
+            } else {
+              location.replace(location.protocol + '//m.' + location.host + location.pathname + location.search)
+            }
+        }
+      }
+      redirect()
+      function addScriptJs() {
+        let d = (JSON.parse(localStorage.ave_globalConfig || '{}').token_logo_url || 'https://www.iconaves.com/')
+        let script = document.createElement('script')
+        script.type = 'text/javascript'
+        script.src = d + `charting_library/charting_library.standalone.js`
+        document.getElementsByTagName('head')[0].appendChild(script)
+      }
+      addScriptJs()
+    </script>
+  <link href="/static/js/0.js" rel="prefetch"><link href="/static/js/1.js" rel="prefetch"><link href="/static/js/10.js" rel="prefetch"><link href="/static/js/11.js" rel="prefetch"><link href="/static/js/12.js" rel="prefetch"><link href="/static/js/13.js" rel="prefetch"><link href="/static/js/14.js" rel="prefetch"><link href="/static/js/15.js" rel="prefetch"><link href="/static/js/2.js" rel="prefetch"><link href="/static/js/3.js" rel="prefetch"><link href="/static/js/4.js" rel="prefetch"><link href="/static/js/5.js" rel="prefetch"><link href="/static/js/6.js" rel="prefetch"><link href="/static/js/7.js" rel="prefetch"><link href="/static/js/8.js" rel="prefetch"><link href="/static/js/9.js" rel="prefetch"><link href="/static/js/ApiKey-._src_a.js" rel="prefetch"><link href="/static/js/Balance-._src_c.js" rel="prefetch"><link href="/static/js/Chart-._src_a.js" rel="prefetch"><link href="/static/js/Check-._src_a.js" rel="prefetch"><link href="/static/js/Download-._n.js" rel="prefetch"><link href="/static/js/Fav-._n.js" rel="prefetch"><link href="/static/js/Index-._src_a.js" rel="prefetch"><link href="/static/js/Kline-._n.js" rel="prefetch"><link href="/static/js/Lost-._src_views_lost.vue-1.js" rel="prefetch"><link href="/static/js/OfficialVerification-._src_a.js" rel="prefetch"><link href="/static/js/Pump-._src_a.js" rel="prefetch"><link href="/static/js/Rank-._src_a.js" rel="prefetch"><link href="/static/js/Referral-._src_a.js" rel="prefetch"><link href="/static/js/Smart-._n.js" rel="prefetch"><link href="/static/js/Token-._node_modules_@.js" rel="prefetch"><link href="/static/js/Token-._src_a.js" rel="prefetch"><link href="/static/js/Token-._src_u.js" rel="prefetch"><link href="/static/js/Token-._src_views_token_tx_F.js" rel="prefetch"><link href="/static/js/default-Chart-Index-._node_modules_vue-draggable-plus_dist_vue-draggable-plus.js-49a201bd.js" rel="prefetch"><link href="/static/js/default-Chart-Kline-Token-._src_components_dialog_dialogRemind.vue-2.js" rel="prefetch"><link href="/static/js/default-Fav-Index-Smart-._src_assets_images_market_1.js" rel="prefetch"><link href="/static/js/default-Fav-Smart-._n.js" rel="prefetch"><link href="/static/js/default-Index-Pump-Token-._src_views_token_botSwap_slippageSet..js" rel="prefetch"><link href="/static/js/app-._i.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_@noble_c.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_@popperjs_core_dist_index.js-5e764602.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_@raydium-io_raydium-sdk_l.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_@solana_b.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_@solana_o.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_@stablelib_b.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_@t.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_a.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_c.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_d.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_de.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_e.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_echarts_l.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_echarts_lib_c.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_echarts_lib_exp.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_echarts_lib_i.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_el.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_element-plus_e.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_element-plus_es__.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_f.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_h.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_has-.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_p.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_s.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_u.js" rel="preload" as="script"><link href="/static/js/app-._node_modules_x.js" rel="preload" as="script"><link href="/static/js/app-._src_A.js" rel="preload" as="script"><link href="/static/js/app-._src_a.js" rel="preload" as="script"><link href="/static/js/app-._src_d.js" rel="preload" as="script"><link href="/static/js/app-._src_r.js" rel="preload" as="script"><link href="/static/js/runtime.js" rel="preload" as="script"><link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png"><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#131722"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Ave"><link rel="apple-touch-icon" href="/img/icons/apple-touch-icon-152x152.png"><link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#131722"><meta name="msapplication-TileImage" content="/img/icons/msapplication-icon-144x144.png"><meta name="msapplication-TileColor" content="#000000"></head>
+  <body>
+    <noscript>
+      <strong>We're sorry but avedex doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-LFKW8KRD0V');
+      // //添加红包雨
+      // ;(function () {
+      //   var script = document.createElement('script')
+      //   script.onload = function () {
+      //     MapleRedPacketSDK.initMapleRedPacket({
+      //       platform: "ave"
+      //     }).renderToBody()
+      //   }
+      //   script.defer = true
+      //   script.src = 'https://unpkg.com/@maple-tech/red-packet-sdk/dist/index.iife.js'
+      //   document.body.appendChild(script)
+      // })()
+    </script>
+  <script type="text/javascript" src="/static/js/runtime.js"></script><script type="text/javascript" src="/static/js/app-._i.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_@noble_c.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_@popperjs_core_dist_index.js-5e764602.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_@raydium-io_raydium-sdk_l.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_@solana_b.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_@solana_o.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_@stablelib_b.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_@t.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_a.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_c.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_d.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_de.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_e.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_echarts_l.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_echarts_lib_c.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_echarts_lib_exp.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_echarts_lib_i.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_el.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_element-plus_e.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_element-plus_es__.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_f.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_h.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_has-.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_p.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_s.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_u.js"></script><script type="text/javascript" src="/static/js/app-._node_modules_x.js"></script><script type="text/javascript" src="/static/js/app-._src_A.js"></script><script type="text/javascript" src="/static/js/app-._src_a.js"></script><script type="text/javascript" src="/static/js/app-._src_d.js"></script><script type="text/javascript" src="/static/js/app-._src_r.js"></script></body>
+</html>

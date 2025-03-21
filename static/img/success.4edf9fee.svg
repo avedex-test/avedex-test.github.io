@@ -1,0 +1,9 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_24686_41661" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="74" height="74">
+<ellipse cx="40" cy="39.9991" rx="36.6667" ry="36.6661" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_24686_41661)">
+<rect width="80" height="79.9987" fill="#12B886"/>
+</g>
+<path d="M55.9717 29.438C54.6742 28.0405 52.5233 28.0187 51.2002 29.3933L36.3006 44.873L28.8 37.0804C27.4769 35.7058 25.3259 35.7275 24.0284 37.125C22.7632 38.4877 22.7806 40.6551 24.0706 41.9953L36.3006 54.7014L55.9296 34.3083C57.2196 32.9681 57.237 30.8007 55.9717 29.438Z" fill="white"/>
+</svg>

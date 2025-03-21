@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="3px" viewBox="0 0 11 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <g id="交易+挂单" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="交易-市价交易-买备份" transform="translate(-268.000000, -584.000000)" fill="#999999" fill-rule="nonzero">
+            <g id="提示文案" transform="translate(14.000000, 508.000000)">
+                <g id="编组-9备份-3" transform="translate(0.000000, 63.000000)">
+                    <g id="编组" transform="translate(254.000000, 13.000000)">
+                        <polygon id="路径" points="9.53333333 0 11 0 9.77777778 1.13999999 7.88333333 3 7.15 2.28 8.31111112 1.13999999 0 1.13999999 0 0"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
