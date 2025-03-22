@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.9ad25999019ff054706a00e3a5cd68d6.js"
+  "/precache-manifest.801b9a2899f52a2a750f63507ddca6d2.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "avedex"});
